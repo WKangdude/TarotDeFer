@@ -3,14 +3,13 @@ import Carousel from './Carousel';
 
 //imagenes
 import tarot1 from '../img/wa1.jpeg';
-import tarot2 from '../img/wa2.jpeg';
 import tarot3 from '../img/wa3.jpeg';
 import tarot4 from '../img/wa4.jpeg';
 import tarot5 from '../img/wa5.jpeg';
 import tarot6 from '../img/wa6.jpeg';
 import tarot7 from '../img/wa7.jpeg';
 import tarot8 from '../img/wa8.jpeg';
-import tarot9 from '../img/wa9.jpeg';
+//import tarot9 from '../img/wa9.jpeg';
 import tarot10 from '../img/wa10.jpeg';
 import tarot11 from '../img/wa11.jpeg';
 import tarot12 from '../img/wa12.jpeg';
@@ -30,6 +29,8 @@ import tapa_bocas from '../img/tapa_bocas.jpeg';
 import limpia_preventiva from '../img/limpia_preventiva.jpeg';
 import prote_fam from '../img/prote_fam.jpeg';
 import prote_fuerte from '../img/prote_pareja_fuerte.jpeg';
+import endul_vela from '../img/endulzamiento_con_vela.jpeg';
+import numerologia from '../img/numer.jpeg';
 
 const color1 = "#A88E77";
 const color2 = "#232323";
@@ -149,36 +150,6 @@ const sectionsData = [
         notIncluded: [],
         duration: ""
       },
-      {
-        backgroundImage: tarot1,
-        title: "Piña de la abundancia",
-        price: "$3500",
-        color: "#A88E77",
-        detail: "Este ritual es muy poderoso, ideal para abrir caminos, para que no falte dinero en casa, para el éxito y la properidad, no solo es un abre caminos tambien limpia las malas energias y protege tu economia. Se recomienda para negocios. 15 dias de velación Puede ser familiar (cada persona extra tiene un costo adicional) Se hacen los dias martes o jueves y de preferencia en luna llena",
-        included: [],
-        notIncluded: ["Persona extre por $750 MXN"],
-        duration: ""
-      },
-      {
-        backgroundImage: tarot2,
-        title: "Economia Familiar y éxito",
-        price: "$7500",
-        color: "#A88E77",
-        detail: "Es un trabjo completo, poderoso y muy fuerte. Este trabajo se enfoca en abrir caminos laborales, obtener exito, hacer que la economia fluya de una mejor manera, limpia los posibles bloqueos y/o estancamientos, armoniza a la familia para que esten tranquilos, tambien da proteccion de envidias, mal de ojo o brujerias. Este ritual esta pensado para 4 personas y es una sola velación.",
-        included: ["Lectura de seguimiento"],
-        notIncluded: ["Persona extre por $750 MXN"],
-        duration: ""
-      },
-      {
-        backgroundImage: tarot3,
-        title: "Economia Familiar y éxito",
-        price: "$7500",
-        color: "#A88E77",
-        detail: "Es un trabjo completo, poderoso y muy fuerte. Este trabajo se enfoca en abrir caminos laborales, obtener exito, hacer que la economia fluya de una mejor manera, limpia los posibles bloqueos y/o estancamientos, armoniza a la familia para que esten tranquilos, tambien da proteccion de envidias, mal de ojo o brujerias. Este ritual esta pensado para 4 personas y es una sola velación.",
-        included: ["Lectura de seguimiento"],
-        notIncluded: ["Persona extra por $750 MXN"],
-        duration: ""
-      },
     ],
   },
   {
@@ -209,17 +180,7 @@ const sectionsData = [
         duration: ""
       },
       {
-          backgroundImage: tarot6,
-          title: "Aplacate",
-          price: "$1100",
-          color: color1,
-          detail: "Este es un ritual sencillo que nos ayuda a ablandar a una persona en particular para que ceda a nuestras peticiones y este tranquilo.\n\nEste ritual nos sirve para cualquier relación.",
-          included: [],
-          notIncluded: [],
-          duration: ""
-      },
-      {
-          backgroundImage: tarot7,
+          backgroundImage: endul_vela,
           title: "Endulzamiento de pareja con velación",
           price: "$1600",
           color: color1,
@@ -430,7 +391,7 @@ const sectionsData = [
         notIncluded: ["$600 persona extra agregada"]
       },
       {
-        backgroundImage: tarot9,
+        backgroundImage: numerologia,
         title: "Numerología pitagórica completa",
         detail: "El objetivo de la numerologia es conocerte más a fondo, entender ciertos patrones o comportamientos en tu vida.\n\nVemos lo siguiente:\n\nKarma\nEsencia\nCareta\nReacción\nMisión\nSíntesis\n\nSe entrega en un PDF con explicación de todos los puntos, tiempo de espera de 3 a 6 días hábiles.",
         price: "$650",
